@@ -32,7 +32,6 @@ treesitter.setup({
 		"dockerfile",
 		"gitignore",
 		"php",
-		"rust",
 		"sql",
 	},
 	-- auto install above language parsers

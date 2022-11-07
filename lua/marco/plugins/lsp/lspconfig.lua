@@ -95,12 +95,6 @@ lspconfig["sumneko_lua"].setup({
 	},
 })
 
--- configure rust_analyzer
-lspconfig["rust_analyzer"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
 -- configure intelephense
 lspconfig["intelephense"].setup({
 	capabilities = capabilities,

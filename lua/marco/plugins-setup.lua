@@ -95,6 +95,11 @@ return packer.startup(function(use)
 	-- indentation guides to all lines
 	use("lukas-reineke/indent-blankline.nvim")
 
+	use("simrat39/rust-tools.nvim")
+
+	-- Debugging
+	use("mfussenegger/nvim-dap")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
